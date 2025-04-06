@@ -1,7 +1,7 @@
 services:
   - type: web
     name: my-flask-app
-    env: Docker
+    env: Dockerfile
     plan: free
     branch: main
     autoDeploy: false
